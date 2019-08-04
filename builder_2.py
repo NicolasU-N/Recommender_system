@@ -29,7 +29,6 @@ Convirtiendo a SFrame para la entrada del modelo
 
 data = tc.SFrame(ratings)
 
-
 '''
 -----------------------------------------------------------------------------
 Separando datos para evaluación del modelo
@@ -94,6 +93,7 @@ SAVING model:
 '''
 # model = tc.load_model("my_model.model")
 model.save("my_model.model")
+
 '''
 ----> Obtener resumen del modelo recado con turicreate.recommender.create
  

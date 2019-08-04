@@ -22,10 +22,22 @@ your app.
 
 ## Data
 
+<p align="center"><img src="https://raw.githubusercontent.com/NicolasU-N/Recommender_system/master/resources/Data.png" alt="Data" width="600"> </p>
+
 Data has 45 observations with 5 users and 13 items.
+
+## Model and Evaluation
+Turi Create provides a
+
+```python
+ model = turicreate.recommender.create(...)
+```
+method that will automatically choose an appropriate model for your data set.
+
+In this example, Ranking Factorization Recommender is used to recommend products to users, with RMSE Final Training: 0.849708
 
 ## Recommendations
 
-<p align="center"><img src="https://raw.githubusercontent.com/NicolasU-N/Recommender_system/master/resources/Recommendations.png" alt="Recommendations" width="400"> </p>
+<p align="center"><img src="https://raw.githubusercontent.com/NicolasU-N/Recommender_system/master/resources/Recommendations.png" alt="Recommendations" width="600"> </p>
 
 Recommendations for all users, for a new user that does not appear in the dataset and for a specific user.
