@@ -6,9 +6,7 @@ Recommendation system for ecommerce using the turicreate library.
 
 <p align="center"><img src="https://docs-assets.developer.apple.com/turicreate/turi-dog.svg" alt="Turi Create" width="100"> </p>
 <p align="center">
-![Build Status](https://travis-ci.com/apple/turicreate.svg?branch=master) 
-![PyPI Release](https://img.shields.io/pypi/v/turicreate.svg) 
-![Python Versions](https://img.shields.io/pypi/pyversions/turicreate.svg)
+<a href="https://github.com/apple/turicreate#"><img src="https://travis-ci.com/apple/turicreate.svg?branch=master" alt="Build Status"></a> <a href="https://github.com/apple/turicreate#"><img src="https://img.shields.io/pypi/v/turicreate.svg" alt="Build Status"></a> <a href="https://github.com/apple/turicreate#"><img src="https://img.shields.io/pypi/pyversions/turicreate.svg" alt="Build Status"></a>
 </p>
 
 Turi Create simplifies the development of custom machine learning models. You
@@ -28,6 +26,6 @@ Data has 45 observations with 5 users and 13 items.
 
 ## Recommendations
 
-<p align="center"><img src="https://github.com/NicolasU-N/Recommender_system/tree/master/resources/Recommendations.png" alt="Recommendations" width="200"> </p>
+<p align="center"><img src="https://raw.githubusercontent.com/NicolasU-N/Recommender_system/master/resources/Recommendations.png" alt="Recommendations" width="400"> </p>
 
 Recommendations for all users, for a new user that does not appear in the dataset and for a specific user.
