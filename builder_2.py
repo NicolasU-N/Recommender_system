@@ -12,7 +12,6 @@ from ecommerce_postgresql import EcommercePostgres
 
 import turicreate as tc
 
-
 ecommerce_postgres = EcommercePostgres()
 ratings = ecommerce_postgres.getDataframe() 
     
@@ -91,7 +90,7 @@ print(recommendations);
 SAVING model:
 -----------------------------------------------------------------------------
 '''
-# model = tc.load_model("my_model.model")
+
 model.save("my_model.model")
 
 '''
