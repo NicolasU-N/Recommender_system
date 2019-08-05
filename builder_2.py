@@ -52,10 +52,10 @@ model = tc.recommender.create(training_data, 'user_id', 'product_id',target='rat
 ----> Making recommendations for ALL USERS:
     
 '''
-print("##############################################")
-print("ALL USERS:")
+#print("##############################################")
+#print("ALL USERS:")
 results = model.recommend()
-print(results)
+#print(results)
 
 
 '''
@@ -66,11 +66,11 @@ print(results)
    # La función recomendar () funciona a la perfección con los nuevos usuarios. 
    # Si el modelo nunca ha visto al usuario, entonces se recomienda elementos populares:
 
-print("##############################################")
-print("NEW USER:")
+#print("##############################################")
+#print("NEW USER:")
       
 results1 = model.recommend(['-1'])
-print(results1);
+#print(results1);
 
 
 '''
@@ -79,11 +79,11 @@ print(results1);
 '''
 #QUERY BD: 
 #SELECT user_id,product_id,rating FROM reviews WHERE user_id=2;
-print("##############################################")
+#print("##############################################")
 users=['2']
-print("USER: "+''.join(users))
+#print("USER: "+''.join(users))
 recommendations = model.recommend(users)
-print(recommendations);
+#print(recommendations);
 
 '''
 -----------------------------------------------------------------------------

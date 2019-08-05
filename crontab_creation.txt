@@ -1,2 +1,5 @@
 * * * * * python /home/nicolas/Documentos/DataScience/Tareas_DataScience/Tarea2/Codigo_RC_System/ecommerce_postgresql.py
+
 * * * * * python /home/nicolas/Documentos/DataScience/Tareas_DataScience/Tarea2/Codigo_RC_System/builder_2.py
+
+* * * * * python /home/nicolas/Documentos/DataScience/Tareas_DataScience/Tarea2/Codigo_RC_System/builder_2.py >> /var/log 2>&1

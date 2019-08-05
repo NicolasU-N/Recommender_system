@@ -4,7 +4,7 @@
 		"num_segments" : 1
 	},
 	"segment_files" : {
-		"0000" : "m_42e881dc5eedfb5b.0000"
+		"0000" : "m_949cbbd019fbd3a1.0000"
 	},
 	"columns" : [
 		{
@@ -13,7 +13,7 @@
 				"__type__" : "0"
 			},
 			"segment_sizes" : {
-				"0000" : "25"
+				"0000" : "5"
 			}
 		},
 		{
@@ -22,34 +22,16 @@
 				"__type__" : "1"
 			},
 			"segment_sizes" : {
-				"0000" : "25"
+				"0000" : "5"
 			}
 		},
 		{
 			"content_type" : "",
 			"metadata" : {
-				"__type__" : "1"
+				"__type__" : "3"
 			},
 			"segment_sizes" : {
-				"0000" : "25"
-			}
-		},
-		{
-			"content_type" : "",
-			"metadata" : {
-				"__type__" : "1"
-			},
-			"segment_sizes" : {
-				"0000" : "25"
-			}
-		},
-		{
-			"content_type" : "",
-			"metadata" : {
-				"__type__" : "1"
-			},
-			"segment_sizes" : {
-				"0000" : "25"
+				"0000" : "5"
 			}
 		}
 	]
