@@ -91,7 +91,7 @@ SAVING model:
 -----------------------------------------------------------------------------
 '''
 
-model.save("my_model.model")
+model.save("/home/nicolas/Documentos/DataScience/Tareas_DataScience/Tarea2/Codigo_RC_System/my_model.model")
 
 '''
 ----> Obtener resumen del modelo recado con turicreate.recommender.create
