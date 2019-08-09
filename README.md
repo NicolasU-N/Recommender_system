@@ -1,4 +1,4 @@
-# Recommender_system
+# Recommender System
 
 Recommendation system for ecommerce using the turicreate library.
 
@@ -40,4 +40,33 @@ In this example, Ranking Factorization Recommender is used to recommend products
 
 <p align="center"><img src="https://raw.githubusercontent.com/NicolasU-N/Recommender_system/master/resources/Recommendations.png" alt="Recommendations" width="600"> </p>
 
-Recommendations for all users, for a new user that does not appear in the dataset and for a specific user.
+Product recommendations for all users, for a new user that does not appear in the data set and for a specific user.
+
+<p align="center"><img src="https://raw.githubusercontent.com/NicolasU-N/Recommender_system/master/resources/Demostracion.gif" alt="Recommendations specific users" width="600"> </p>
+
+
+**Note**: Each product is represented by its product_id
+
+
+## Adding web service
+
+In this case we use java servlets and python flask for the backend together with postgresql, in addition, we use JavaScript + Bootstrap + Css for the frontend of our bike store.
+
+<p align="center"><img src="https://raw.githubusercontent.com/NicolasU-N/Recommender_system/master/resources/index_pag_ecommerce.png" alt="index" width="600"> </p>
+
+
+<p align="center"><img src="https://raw.githubusercontent.com/NicolasU-N/Recommender_system/master/resources/index_2_ecommerce.png" alt="index" width="600"> </p>
+
+### Recommendation for new users
+
+<p align="center"><img src="https://raw.githubusercontent.com/NicolasU-N/Recommender_system/master/resources/New_user.png" alt="Recommendations new users" width="600"> </p>
+
+### Recommendation for specific users
+
+<p align="center"><img src="https://raw.githubusercontent.com/NicolasU-N/Recommender_system/master/resources/User_specific.png" alt="Recommendations specific users" width="600"> </p>
+
+
+
+
+
+
