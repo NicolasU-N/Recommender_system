@@ -1,0 +1,88 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+/*!
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+*/
+
+.navbar{
+    background-color: #211F20 !important;
+}
+
+.nav-link{
+    font-size: 1.3rem
+}
+
+.dropdown-menu{
+    background-color: #211F20 !important;
+}
+
+.dropdown-menu .dropdown-item{
+    color:white;
+}
+.dropdown-menu .dropdown-item:hover{
+    color:#F78225 !important;
+    background: none;
+}
+
+.bg-dark{
+    background-color: #211F20 !important;
+}
+
+.nav-link:hover{
+    color:#F78225 !important;
+}
+
+/*
+.btn{
+    background-color:#00ACE8 !important;
+}
+*/
+ 
+
+.colorText{
+    color:#00ACE8;
+}
+
+.colorText:hover{
+    color:#F78225;
+}
+
+dt{
+  width: 6rem;
+  float: left;
+  word-wrap: break-word;
+}
+
+.itemside {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+}
+
+.itemside .text-wrap {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.text-muted {
+  color: #6c757d !important;
+}
+small, .small {
+  font-size: 80%;
+  font-weight: 400;
+}

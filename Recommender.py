@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Aug  4 15:17:12 2019
-
 @author: nicolas
 """
 
@@ -52,6 +51,3 @@ def recommend(user_to_rc):
 if __name__ == '__main__':
     app.debug = True
     app.run()
-
-
-    
