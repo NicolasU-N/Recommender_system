@@ -44,8 +44,11 @@
 		<div class="row">
 
 			<div class="col-lg-3">
-				<h1 class="my-4">Shop Name</h1>
-				<div class="list-group" id="div_categories"></div>
+				<h1 class="my-4">Bike Store Fabio Acevedo</h1>
+				<div class="list-group" id="div_categories">
+				<a href="home_tienda.jsp?id=1" id="category_1" class="list-group-item active">Bicicletas</a>
+				<a href="home_tienda.jsp?id=2" id="category_2" class="list-group-item">Equipamiento</a>
+				<a href="home_tienda.jsp?id=3" id="category_3" class="list-group-item">Repuestos</a></div>
 			</div>
 			<!-- /.col-lg-3 -->
 
@@ -127,10 +130,11 @@
 
 	<script type="text/javascript">
 		$(document).ready(function() {
-			var product_id =
-	<%=product_id%>
-		;
-			getCategories();
+			var product_id = <%=product_id%>;
+		
+
+			//getCategories(category_id);
+			//getCategories();
 			getProductById(product_id);
 			getReviews(product_id);
 			configureRating();

@@ -8,9 +8,9 @@
 		category_id = "1";	
 	}
 	
-	int user_id=0;
-	try {
-	user_id =(int)session.getAttribute("user_id");
+	long user_id;
+	try {		
+	user_id =(long)session.getAttribute("user_id");
 	System.out.println("-----------> "+user_id);
 	} 
 	catch (Exception e) {
@@ -155,7 +155,7 @@
 			     
 			    }			  						  
 				$.each(data, function(key, val){
-				    alert("Productos Recomendados: "+data.recommendedProducts); 
+				    //alert("Productos Recomendados: "+data.recommendedProducts); 
 				});
 			});	
 										

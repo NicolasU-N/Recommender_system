@@ -65,11 +65,6 @@
 				<div id="div_items" class="card-body">
 				</div>
 				<div class="card-footer">
-					<div class="coupon col-md-5 col-sm-5 no-padding-left pull-left">
-						<div class="pull-right" style="margin: 10px">
-							Coupon code: <b id="coupon"></b>
-						</div>
-					</div>
 					<div class="pull-right" style="margin: 10px">
 						<div class="pull-right" style="margin: 5px">
 							Total price: <b id="total">$0.00</b>

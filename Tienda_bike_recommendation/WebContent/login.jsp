@@ -54,6 +54,7 @@
 										<label>Password</label> <input type="password"
 											class="form-control form-control-lg rounded-0" id="password"
 											name="password" required="" autocomplete="new-password">
+											<br/>${message}
 										<div class="invalid-feedback">Enter your password too!</div>
 									</div>
 									<button type="submit"
@@ -84,11 +85,42 @@
 	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script src="js/ecommerce.js"></script>
 	
+	<script
+  	src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.min.js"></script>
+	
 	<script type="text/javascript">
 		$(document).ready(function() {
 			updateItemsCount();
 		});
 	</script>
+	
+	<script type="text/javascript">
+ 
+    $(document).ready(function() {
+        $("#formLogin").validate({
+            rules: {
+                email: {
+                    required: true,
+                    username: true
+                },
+         
+                password: "required",
+            },
+             
+            messages: {
+                username: {
+                    required: "Please enter email",
+                    username: "Please enter a valid email address"
+                },
+                 
+                password: "Please enter password"
+            }
+        });
+ 
+    });
+</script>
 	
 </body>
 </html>

@@ -29,7 +29,7 @@ public class ReviewService {
 	@Produces("application/json")
 	public Response addReview(@Context HttpServletRequest request, Review review) {
 		HttpSession session = request.getSession();
-		int user_id = (int)session.getAttribute("user_id");
+		long user_id = (long)session.getAttribute("user_id");
 		String username = (String)session.getAttribute("username");
 		
 		BaseDato basedato = new BaseDato();

@@ -1,5 +1,5 @@
 <div class="container" >
-	<div class="col-sm-12">
+	<div class="col-sm-12" >
 		
 		<div id="carouselExampleIndicators" class="carousel slide my-4"
 	data-ride="carousel">
@@ -30,7 +30,7 @@
 		</div>
 	</div>
 	<a class="carousel-control-prev" href="#carouselExampleIndicators"
-		role="button" data-slide="prev"> <span
+		role="button" data-slide="prev" style="margin: 40px"> <span
 		class="carousel-control-prev-icon" aria-hidden="true"></span><span
 		class="sr-only">Previous</span>
 	</a> 

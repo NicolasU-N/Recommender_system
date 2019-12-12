@@ -17,7 +17,7 @@ function getItems(){
     		var dp = '';
 			dp += '<div id="row_' + product_id + '" class="row">';
     		dp += '<div class="col-12 col-sm-12 col-md-2 text-center">';
-    		dp += '<img class="img-responsive" src="images/' + icon + '" alt="prewiew" width="120" height="80">';
+    		dp += '<img class="img-responsive" src="images/' + icon + '" alt="prewiew" width="140" height="100">';
     		dp += '</div>';
     		dp += '<div class="col-12 text-sm-center col-sm-12 text-md-left col-md-6">';
     		dp += '<h4 class="product-name"><strong>' + name + '</strong></h4>';
@@ -30,10 +30,8 @@ function getItems(){
     		dp += '<h6><strong>' + pricing.toFixed(2) + ' <span class="text-muted">x</span></strong></h6>';
     		dp += '</div>';
     		dp += '<div class="col-4 col-sm-4 col-md-4">';
-    		dp += '<div class="quantity">';
-    		dp += '<input type="button" value="+" class="plus">';
-    		dp += '<input type="number" step="1" max="99" min="1" value="' + quantity + '" title="Qty" class="qty" size="4">';
-            dp += '<input type="button" value="-" class="minus">';
+    		dp += '<div class="quantity">';    		
+    		dp += '<input type="number" step="1" max="99" min="1" value="' + quantity + '" title="Qty" class="qty" size="6">';            
             dp += '</div>';
             dp += '</div>';
             dp += '<div class="col-2 col-sm-2 col-md-2 text-right">';

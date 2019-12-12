@@ -32,36 +32,26 @@
 	<!-- Page Content -->
 	<!-- <script src="https://use.fontawesome.com/c560c025cf.js"></script>c
 	<!--<br/>-->
-	<div class="container">
+	<div class="container m-5">
 	   <div class="card shopping-cart">
 	            <div class="card-header bg-dark text-light">
 	                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
 	                Shopping cart
-	                <a href="./" class="btn btn-outline-info btn-sm pull-right">Continue shopping</a>
+	                <a href="./home_tienda.jsp" class="btn btn-outline-info btn-sm pull-right" style="margin-left: 800px" >Continue shopping</a>
 	                <div class="clearfix"></div>
 	            </div>
 	            <div id="div_items" class="card-body">        
-	                <div class="pull-right">
-	                    <a href="" class="btn btn-outline-secondary pull-right">
+	                <div class="pull-right" style="margin: 5px">
+	                    <a href="" class="btn btn-outline-secondary pull-right" >
 	                        Update shopping cart
 	                    </a>
 	                </div>
 	            </div>
-	            <div class="card-footer">
-	                <div class="coupon col-md-5 col-sm-5 no-padding-left pull-left">
-	                    <div class="row">
-	                        <div class="col-6">
-	                            <input type="text" class="form-control" placeholder="cupone code">
-	                        </div>
-	                        <div class="col-6">
-	                            <input type="submit" class="btn btn-default" value="Use cupone">
-	                        </div>
-	                    </div>
-	                </div>
+	            <div class="card-footer">	                
 	                <div class="pull-right" style="margin: 10px">
-	                    <a href="javascript:checkout();" id="checkout" class="btn btn-success pull-right">Checkout</a>
+	                    <a href="javascript:checkout();" id="checkout" class="btn btn-success pull-right">Comprar</a>
 	                    <div class="pull-right" style="margin: 5px">
-	                        Total price: <b id="total">$0.00</b>
+	                        Precio Total: <b id="total">$0.00</b>
 	                    </div>
 	                </div>
 	            </div>

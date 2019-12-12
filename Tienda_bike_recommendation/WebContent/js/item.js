@@ -5,7 +5,7 @@ function getCategories(){
     		var id = data[row].id;
     		var name = data[row].name;	
     		var item_class = "list-group-item";
-			$("#div_categories").append("<a href='index.jsp?id=" + id + "' id='category_" + id + "' class='" + item_class + "'>" + name + "</a>");
+			$("#div_categories").append("<a href='home_tienda.jsp?id=" + id + "' id='category_" + id + "' class='" + item_class + "'>" + name + "</a>");
     	}
     });
 }
